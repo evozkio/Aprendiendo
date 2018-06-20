@@ -110,11 +110,11 @@ def find_contact(contacts):
 
         if name_or_email == "nombre":
             index = found_element("name", "nombre", contacts)
-            information("name", index,contacts)
+            information("name", index, contacts)
 
         elif name_or_email == "email":
             index = found_element("email", "email", contacts)
-            information("email", index,contacts)
+            information("email", index, contacts)
 
         found = select_two("S", "N", "Quieres seguir buscando (S/N)")
 
